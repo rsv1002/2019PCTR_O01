@@ -18,3 +18,8 @@ Objetivos:
 
 
 Material docente para la realización de la práctica:
+
+https://www.youtube.com/watch?time_continue=177&v=ECcqAw3Laok
+
+https://www.youtube.com/watch?index=6&list=PLI-Cxdfw2sI5epfnAA5k7BaDY1FlZwZ4W&t=2s&v=KTcEbKsps6M
+
