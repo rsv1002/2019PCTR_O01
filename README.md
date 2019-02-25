@@ -19,6 +19,8 @@ Objetivos:
 
 Material docente para la realización de la práctica:
 
+https://www.dropbox.com/s/aknxwog5sacbeok/01SimulacionObjetosF%C3%ADsicosconComportamaientosAut%C3%B3nomos.pdf?dl=0
+
 https://www.youtube.com/watch?time_continue=177&v=ECcqAw3Laok
 
 https://www.youtube.com/watch?index=6&list=PLI-Cxdfw2sI5epfnAA5k7BaDY1FlZwZ4W&t=2s&v=KTcEbKsps6M
