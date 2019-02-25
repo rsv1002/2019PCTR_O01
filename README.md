@@ -2,7 +2,7 @@
 
 P02. Simulación de objetos físicos con comportamientos autónomos.
 
-Objetivos
+Objetivos:
 
     Implementar código concurrente para simular objetos físicos con comportamientos autónomos independientes
 
@@ -17,4 +17,4 @@ Objetivos
     Sincronización de métodos modificadores como técnica que garantiza la imposición de diseño de seguridad
 
 
-Material docente para la realización de la práctica
+Material docente para la realización de la práctica:
