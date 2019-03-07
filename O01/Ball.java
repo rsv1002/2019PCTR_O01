@@ -48,6 +48,7 @@ public class Ball {
 		reflect();
 		
 		//TODO Check postcondition
+		assert (x > Board.LEFTBOARD && x < Board.RIGHTBOARD && y > Board.TOPBOARD && y < Board.BOTTOMBOARD);
 
 	}
 
@@ -107,12 +108,15 @@ public class Ball {
 	public void setX(double x) {
 
 		this.x = x;
-
+		//la posición debe estar dentro de los límites del tablero
+		assert (x > Board.LEFTBOARD && x < Board.RIGHTBOARD);
 	}
 
 	public void setY(double y) {
 
 		this.y = y;
+		//la posición debe estar dentro de los límites del tablero
+		assert (y > Board.TOPBOARD && y < Board.BOTTOMBOARD);
 
 	}
 
