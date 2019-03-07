@@ -20,6 +20,7 @@ public class Ball {
 		image = ii.getImage();
 		
 		//TODO Depend of image size
+        // El tamaño de la imagen Ball.png coincide con el especificado, 32x32
 		IMG_TAM_X = 32;
 		IMG_TAM_Y = 32;
 		
