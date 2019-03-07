@@ -66,6 +66,18 @@ public class Billiards extends JFrame {
 		public void actionPerformed(ActionEvent arg0) {
 
 			// TODO Code is executed when start button is pushed
+			board.setBalls(balls);
+			if(hilos == null) {
+
+				hilos = new Thread[N_BALL];
+				for (int i=0;i<hilos.length;++i) {
+
+					hilos[i] = new Thread(new HiloMovimiento(balls[i],board));
+					hilos[i].start();
+
+				}
+
+			}
 
 		}
 
@@ -77,18 +89,7 @@ public class Billiards extends JFrame {
 		public void actionPerformed(ActionEvent arg0) {
 
 			// TODO Code is executed when stop button is pushed
-            board.setBalls(balls);
-            if(hilos == null) {
 
-                hilos = new Thread[N_BALL];
-                for (int i=0;i<hilos.length;++i) {
-
-                    hilos[i] = new Thread(new HiloMovimiento(balls[i],board));
-                    hilos[i].start();
-
-                }
-
-            }
 
 		}
 
