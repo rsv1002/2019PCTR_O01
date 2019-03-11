@@ -96,7 +96,7 @@ public class Ball {
 	public double getFi() {
 
 		return fi;
-
+		synchronized
 	}
 
 	public double getdr() {
@@ -105,14 +105,14 @@ public class Ball {
 
 	}
 
-	public void setX(double x) {
+	public synchronized void setX(double x) {
 
 		this.x = x;
 		//la posición debe estar dentro de los límites del tablero
 		assert (x > Board.LEFTBOARD && x < Board.RIGHTBOARD);
 	}
 
-	public void setY(double y) {
+	public synchronized void setY(double y) {
 
 		this.y = y;
 		//la posición debe estar dentro de los límites del tablero
