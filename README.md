@@ -2,8 +2,6 @@
 
 Profesor:   Carlos López Nozal.
 
-Alumnos:    Roberto Sueiro Ventoso - Alfredo Asensio Vázquez.
-
 
 # Simulación de objetos físicos con comportamientos autónomos.
 
